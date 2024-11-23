@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(248, 83, 6); /* Sets the background color */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start; /* Align items to the start (top) of the page */
+    height: 100vh; /* Full viewport height */
+}
+
+#top-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 70px; /* Add some space below the logo */
+}
+
+#swiggy_logo {
+    width: 160px;
+    height: auto;
+    margin-right: 700px; /* Adds space between image and text/button */
+}
+
+.content {
+    display: flex;
+    align-items: center; /* Align items horizontally */
+}
+
+#corporate {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: white;
+    margin-right: 20px; /* Space between text and button */
+}
+
+#getapp {
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid aliceblue;
+    background-color: orangered;
+    color: #ffffff;
+}
+
+#main-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Add some space below the top content */
+}
+
+#leftimg {
+    height: 507px;
+}
+
+#rightimg {
+    height: 507px;
+    margin-left: 20px; /* Add some space between the text and the right image */
+}
+
+.content2 {
+    margin-left: 30px; /* Add some space between the left image and the text */
+    margin-right: 30px; /* Add some space between the text and the right image */
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 27px;
+    color: white;
+    text-align: center; /* Center align the text */
+}
+
+#rest {
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px; /* Add some space below the search bar */
+}
+
+#pin {
+    width: auto;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 10px; /* Add some space between the pincode and search bar */
+}
+
+#food-images {
+    display: flex;
+    justify-content: space-between; /* Distribute images evenly */
+    margin-top: 20px; /* Add some space above the images */
+}
+
+.food-img {
+    width: 200px; /* Adjust the width of the images */
+    height: auto;
+    border-radius: 10px; /* Add border radius to the images */
+    margin: 10px; /* Add some space around each image */
+}
+
+#food-section {
+    width: 100%; /* Full width of the container */
+    padding: 20px; /* Add padding */
+    background-color: rgb(248,83,6) /* Optional: Background color for contrast */
+    text-align: center; /* Center align the text */
+}
+
+#food-title {
+    font-family: 'Arial';
+    font-size: 24px;
+    color: rgb(248, 83, 6); /* Matching the background color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+#food {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding-left: 20px; /* Add padding to align images */
+    padding-right: 20px;
+}

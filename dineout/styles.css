@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #daeeff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body has enough height to display all content */
+}
+
+.title {
+    margin-bottom: 20px; /* Add some space between the title and the images */
+    font-size: 32px; /* Increase font size */
+    font-weight: bold; /* Increase font weight */
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Optional: Control the maximum width of the row */
+    margin-bottom: 20px; /* Add space between the images and buttons */
+}
+
+.item {
+    text-align: center;
+    margin: 10px;
+}
+
+.item img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 80%; /* Optional: Control the maximum width of the grid */
+}
+
+.grid-button {
+    width: 250px; /* Increase the button width */
+    height: 70px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+}
+
+.grid-button:hover {
+    background-color: #90c2f8;
+}
